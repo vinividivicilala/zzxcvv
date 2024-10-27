@@ -1,0 +1,62 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@formkit/auto-animate": "^0.8.2",
+    "@headlessui/tailwindcss": "^0.2.1",
+    "@nuxt/image": "^1.8.1",
+    "@nuxt/ui": "^2.18.7",
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "@nuxtjs/robots": "^4.1.7",
+    "@nuxtjs/strapi": "^1.12.0",
+    "@pinia/nuxt": "^0.5.5",
+    "@stefanobartoletti/nuxt-social-share": "^1.1.2",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/container-queries": "^0.1.1",
+    "@tailwindcss/forms": "^0.5.9",
+    "@tailwindcss/typography": "^0.5.15",
+    "@vercel/kv": "^3.0.0",
+    "@vueuse/motion": "^2.2.5",
+    "markdown-it-github-alerts": "^0.3.0",
+    "nuxt-typed-router": "^3.7.0",
+    "pinia": "^2.2.4",
+    "shiki": "^1.22.0",
+    "tailwindcss": "^3.4.13",
+    "vue": "^3.5.11",
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "@egoist/tailwindcss-icons": "^1.8.1",
+    "@iconify-json/ic": "^1.2.1",
+    "@iconify-json/ph": "^1.2.1",
+    "@iconify-json/simple-icons": "^1.2.7",
+    "@nuxt/eslint": "0.6.0",
+    "@nuxt/kit": "^3.13.2",
+    "@nuxtjs/i18n": "^8.5.5",
+    "@nuxtjs/mdc": "^0.9.0",
+    "@nuxtjs/sitemap": "6.1.2",
+    "@pinia-plugin-persistedstate/nuxt": "^1.2.1",
+    "@rollup/plugin-wasm": "^6.2.2",
+    "@vueuse/nuxt": "^11.1.0",
+    "dayjs": "^1.11.13",
+    "dayjs-nuxt": "^2.1.11",
+    "eslint": "^9.12.0",
+    "nuxt": "^3.13.2",
+    "nuxt-shiki": "^0.3.0",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.8",
+    "typescript": "^5.6.3"
+  },
+  "resolutions": {
+    "string-width": "4.2.3"
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
+}
